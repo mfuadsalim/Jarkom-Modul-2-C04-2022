@@ -14,6 +14,7 @@ IP Prefix Kelompok C04 : `192.181`
 
 ## Soal Praktikum Modul 4
 # Topologi
+![topologi](https://user-images.githubusercontent.com/80630201/209158003-f4a3eefc-c01d-47df-891a-563fddb3b1af.png)
 
 # Nomor 1
 WISE akan dijadikan sebagai DNS Master, Berlint akan dijadikan DNS Slave, dan Eden akan digunakan sebagai Web Server. Terdapat 2 Client yaitu SSS, dan Garden. Semua node terhubung pada router Ostania, sehingga dapat mengakses internet 
@@ -109,14 +110,10 @@ echo nameserver 192.168.122.1 > /etc/resolv.conf
 ```
 
 Lalu `ping google.com` dan liat hasilnya telah terkoneksi.</br>
-
-
-</br>
-
-Hasil Screenshot Node yang telah dibuat: </br>
-
+![ping google](https://user-images.githubusercontent.com/80630201/209158015-9569535f-9af1-4ced-889e-9c6bfbe180e1.png)
 
 </br>
+
 
 # Nomor 2
 Untuk mempermudah mendapatkan informasi mengenai misi dari Handler, bantulah Loid membuat website utama dengan akses wise.yyy.com dengan alias www.wise.yyy.com pada folder wise
@@ -211,6 +208,7 @@ ping wise.c04.com -c 5
 ```
 
 Sehingga hasilnya akan seperti ini </br>
+![c04](https://user-images.githubusercontent.com/80630201/209158013-b3bcef7f-e2ff-4790-90dd-9bd3c3d902af.jpg)
 # Nomor 3
 Setelah itu ia juga ingin membuat subdomain eden.wise.yyy.com dengan alias www.eden.wise.yyy.com yang diatur DNS-nya di WISE dan mengarah ke Eden
 
@@ -232,6 +230,7 @@ ping eden.wise.c04.com -c 5
 ```
 
 Maka hasilnya adalah sebagai berikut : </br>
+![c04 1](https://user-images.githubusercontent.com/80630201/209158009-8ad53f57-6a81-4a77-9bb4-c4e8c689e3db.jpg)
 # Nomor 4
 Buat juga reverse domain untuk domain utama
 
